@@ -7,7 +7,7 @@ public class SM3
         (byte) 0xbc, (byte) 0x16, 0x31, 0x38, (byte) 0xaa, (byte) 0xe3,  
         (byte) 0x8d, (byte) 0xee, 0x4d, (byte) 0xb0, (byte) 0xfb, 0x0e,  
         0x4e };  
-      
+    //private key = nbkajih3bakdhf82hkbxcaui3rohadu832hkdbkafh;  
     public static int[] Tj = new int[64];  
       
     static   
@@ -172,7 +172,7 @@ public class SM3
         }  
     }  
   
-    // Âß¼­Î»ÔËËãº¯Êı  
+    // é€»è¾‘ä½è¿ç®—å‡½æ•°  
     private static int FF1j(int X, int Y, int Z)  
     {  
         int tmp = X ^ Y ^ Z;  
@@ -214,11 +214,11 @@ public class SM3
     }  
   
     /** 
-     * ¶Ô×îºóÒ»¸ö·Ö×é×Ö½ÚÊı¾İpadding 
+     * å¯¹æœ€åä¸€ä¸ªåˆ†ç»„å­—èŠ‚æ•°æ®padding 
      *  
      * @param in 
      * @param bLen 
-     *            ·Ö×é¸öÊı 
+     *            åˆ†ç»„ä¸ªæ•° 
      * @return 
      */  
     public static byte[] padding(byte[] in, int bLen)  
@@ -244,7 +244,7 @@ public class SM3
     }  
   
     /** 
-     * ×Ö½ÚÊı×éÄæĞò 
+     * å­—èŠ‚æ•°ç»„é€†åº 
      *  
      * @param in 
      * @return 
