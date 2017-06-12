@@ -7,7 +7,7 @@ public class SM3
         (byte) 0xbc, (byte) 0x16, 0x31, 0x38, (byte) 0xaa, (byte) 0xe3,  
         (byte) 0x8d, (byte) 0xee, 0x4d, (byte) 0xb0, (byte) 0xfb, 0x0e,  
         0x4e };  
-    //private key = nbkajih3bakdhf82hkbxcaui3rohadu832hkdbkafh;  
+    
     public static int[] Tj = new int[64];  
       
     static   
